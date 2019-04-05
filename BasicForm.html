@@ -1,0 +1,71 @@
+<<!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Compatível com versões anteriores do IE -->
+        <title>Basic Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                Nome: <input type="text"><br>
+                Endereço: <input type="text"><br>
+                Cidade: <input type="text"><br>
+                Estado: <select>
+                    <option value="AC">Acre </option>
+                    <option value="AL">Alagoas </option>
+                    <option value="AP">Amapá </option>
+                    <option value="AM">Amazonas </option>
+                    <option value="BA">Bahia </option>
+                    <option value="CE">Ceará </option>
+                    <option value="DF">Distrito Federal </option>
+                    <option value="ES">Espírito Santo </option>
+                    <option value="GO">Goiás </option>
+                    <option value="MA">Maranhão </option>
+                    <option value="MT">Mato Grosso </option>
+                    <option value="MS">Mato Grosso do Sul </option>
+                    <option value="MG">Minas Gerais </option>
+                    <option value="PA">Pará </option>
+                    <option value="PB">Paraíba </option>
+                    <option value="PR">Paraná </option>
+                    <option value="PE">Pernambuco </option>
+                    <option value="PI">Piauí </option>
+                    <option value="RJ">Rio de Janeiro </option>
+                    <option value="RN">Rio Grande do Norte </option>
+                    <option value="RS">Rio Grande do Sul </option>
+                    <option value="RO">Rondônia </option>
+                    <option value="RR">Roraima </option>
+                    <option value="SC">Santa Catarina </option>
+                    <option value="SP">São Paulo </option>
+                    <option value="SE">Sergipe </option>
+                    <option value="TO">Tocantins </option>
+                </select>
+            </fieldset>
+            <fieldset>
+                Natureza do Cargo<br>
+                <legend>Dados Profissionais</legend>
+                <input type="radio" name="cargo" value="gerencia">Gerencia
+                <input type="radio" name="cargo" value="Financeiro">Financeiro
+                <input type="radio" name="cargo" value="Recepção">Recepção
+                <input type="radio" name="cargo" value="Administrativo">Administrativo
+                <input type="radio" name="cargo" value="Jurídico">Jurídico
+                <br>
+                <br>
+                Área de interesse<br>
+                <input type="checkbox" name="areaInteresse" value="">Computação
+                <input type="checkbox" name="areaInteresse" value="">Biologia
+                <input type="checkbox" name="areaInteresse" value="">Meio Ambiente
+                <input type="checkbox" name="areaInteresse" value="">Engenharia
+                <input type="checkbox" name="areaInteresse" value="">História
+            </fieldset>
+        </form>
+
+    </body>
+
+    </html>
