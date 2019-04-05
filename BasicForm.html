@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
     <html>
 
     <head>
@@ -14,9 +14,9 @@
         <form>
             <fieldset>
                 <legend>Dados Pessoais</legend>
-                Nome: <input type="text"><br>
-                Endereço: <input type="text"><br>
-                Cidade: <input type="text"><br>
+                Nome: <input type="text" id="txtNome"><br>
+                Endereço: <input type="text" id="txtEndereco"><br>
+                Cidade: <input type="text" id="txtCidade"><br>
                 Estado: <select>
                     <option value="AC">Acre </option>
                     <option value="AL">Alagoas </option>
@@ -47,22 +47,28 @@
                     <option value="TO">Tocantins </option>
                 </select>
             </fieldset>
+            <br>
             <fieldset>
                 Natureza do Cargo<br>
                 <legend>Dados Profissionais</legend>
-                <input type="radio" name="cargo" value="gerencia">Gerencia
-                <input type="radio" name="cargo" value="Financeiro">Financeiro
-                <input type="radio" name="cargo" value="Recepção">Recepção
-                <input type="radio" name="cargo" value="Administrativo">Administrativo
-                <input type="radio" name="cargo" value="Jurídico">Jurídico
+                <input type="radio" name="cargo" value="gerencia" id="rdoGerencia">Gerencia
+                <input type="radio" name="cargo" value="Financeiro" id="rdoFinanceiro">Financeiro
+                <input type="radio" name="cargo" value="Recepção" id="rdoRecepcao">Recepção
+                <input type="radio" name="cargo" value="Administrativo" id="rdoAdministracao">Administrativo
+                <input type="radio" name="cargo" value="Jurídico" id="rdoJuridico">Jurídico
                 <br>
                 <br>
                 Área de interesse<br>
-                <input type="checkbox" name="areaInteresse" value="">Computação
-                <input type="checkbox" name="areaInteresse" value="">Biologia
-                <input type="checkbox" name="areaInteresse" value="">Meio Ambiente
-                <input type="checkbox" name="areaInteresse" value="">Engenharia
-                <input type="checkbox" name="areaInteresse" value="">História
+                <input type="checkbox" name="areaInteresse">Computação
+                <input type="checkbox" name="areaInteresse">Biologia
+                <input type="checkbox" name="areaInteresse">Meio Ambiente
+                <input type="checkbox" name="areaInteresse">Engenharia
+                <input type="checkbox" name="areaInteresse">História
+                <br>
+                <br>
+                Mini-Currículo:
+                <textarea rows="7" cols="45"></textarea>
+
             </fieldset>
         </form>
 
